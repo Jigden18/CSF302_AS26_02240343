@@ -19,7 +19,6 @@ Input Sizes:
 500,000
 1,000,000
 ```
-
 Output:
 
 ![Question 1](./public/image.png)
@@ -64,7 +63,6 @@ Input Sizes:
 500,000
 1,000,000
 ```
-
 Output:
 
 ![Question 3](./public/image-2.png)
