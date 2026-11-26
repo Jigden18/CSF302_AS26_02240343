@@ -1,0 +1,8 @@
+Weekend study plan
+Friday: revise sorting algorithms
+Saturday: read notes on dynamic programming
+Saturday: practise rod cutting problems
+Saturday: practise LCS problems
+Sunday: matrix chain multiplication
+Sunday: optimal binary search trees
+Sunday: submit assignment
