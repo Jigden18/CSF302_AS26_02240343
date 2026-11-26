@@ -1,0 +1,24 @@
+A greedy algorithm builds a solution one piece at a time. At every step it makes
+the choice that looks best right now and never goes back to change it. This makes
+greedy algorithms simple to write and usually very fast, but it also means they
+only work for problems with the right structure.
+
+For a greedy algorithm to be correct, two things must be true. First, there must
+be a greedy choice that is always part of some optimal solution. Second, after
+making that choice, the remaining problem must be a smaller copy of the original,
+so that the same rule can be applied again. Activity selection, fractional
+knapsack, Huffman coding, Dijkstra's shortest paths and minimum spanning trees
+all have this structure, which is why the obvious greedy rule works for them.
+
+When the structure is missing, the greedy choice can lead to a poor answer. In
+the 0/1 knapsack problem an item cannot be split, so taking the item with the
+best value per kilogram may leave space in the bag that nothing else can fill.
+Dynamic programming solves that problem correctly by comparing every option
+instead of committing to one.
+
+Randomised algorithms take a different approach. Instead of always making the
+same choice, they flip coins. Randomised quicksort and quickselect choose a
+random pivot so that no fixed input can force the worst case. The Miller-Rabin
+test checks whether a large number is prime by testing random bases; each round
+can be fooled with a small probability, so repeating the test many times makes
+a wrong answer extremely unlikely.
